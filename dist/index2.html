@@ -1,0 +1,1497 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id="title">Pattern Lab</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="styleguide/css/pattern-lab.css" media="all" />
+    </head>
+
+    <body class="pl-c-body">
+        <pl-layout class="pl-c-body--theme-sidebar pl-c-body--theme-dark">
+            <!---->
+            <pl-header>
+                <header class="pl-c-header" role="banner">
+                    <button class="pl-c-header__nav-toggle pl-js-nav-trigger">
+                        <svg width="20" height="20" fill="currentColor">
+                            <path d="M3 6h18v2.016H3V6zm0 6.984v-1.969h18v1.969H3zM3 18v-2.016h18V18H3z"></path>
+                        </svg>
+                        <div
+                            style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; position: absolute;"
+                        >
+                            Menu
+                        </div>
+                    </button>
+                    <pl-logo>
+						<a href="/" class="pl-c-logo">
+                            <img src="styleguide/images/EnverusLogo_white_green_RGB.png" class="pl-c-logo__img" />
+                            <span class="pl-c-logo__text">Styleguide/Pattern Lab</span></a
+						>
+						</pl-logo
+                    >
+                    <nav class="pl-c-nav pl-js-nav-target pl-js-nav-container" role="navigation">
+                        <pl-search max-results="10">
+                            <div>
+                                <div role="combobox" aria-haspopup="listbox" aria-owns="react-autowhatever-1" class="pl-c-typeahead">
+                                    <div class="pl-c-typeahead__input-wrapper">
+                                        <input
+                                            type="text"
+                                            autocomplete="off"
+                                            aria-autocomplete="list"
+                                            aria-controls="react-autowhatever-1"
+                                            class="pl-c-typeahead__input js-c-typeahead__input"
+                                            placeholder="Find a Pattern"
+                                        />
+                                    </div>
+                                    <div id="react-autowhatever-1" role="listbox" class="pl-c-typeahead__menu"></div>
+                                </div>
+                            </div>
+                        </pl-search>
+                        <pl-nav>
+                            <ol class="pl-c-nav__list pl-js-pattern-nav-target">
+                                <li class="pl-c-nav__item pl-c-nav__item--atoms">
+                                    <button class="pl-c-nav__link pl-c-nav__link--title pl-js-acc-handle pl-is-active"
+                                        role="tab"
+                                        aria-controls="atoms"
+                                        isopenclass="pl-is-active">
+                                        <span class="pl-c-nav__link-icon">
+                                            <svg width="16" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6.984 9.984h10.031L11.999 15z"></path>
+                                            </svg>
+                                        </span>
+                                        <span class="pl-c-nav__link-text">Atoms</span>
+                                    </button>
+                                    <ol class="pl-c-nav__sublist pl-c-nav__sublist--dropdown pl-js-acc-panel pl-is-active">
+                                        <li class="pl-c-nav__item pl-c-nav__item--global">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-01-global/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-global"
+                                                    >Global</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Global"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Global<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Global" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-01-global/00-atoms-01-global.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-colors"
+                                                        >Colors</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-01-global/00-atoms-01-global.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-fonts"
+                                                        >Fonts</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--text">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-02-text/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-text"
+                                                    >Text</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Text"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Text<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Text" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-headings"
+                                                        >Headings</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-paragraph"
+                                                        >Paragraph</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-blockquote"
+                                                        >Blockquote</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-inline-elements"
+                                                        >Inline Elements</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-time"
+                                                        >Time</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-preformatted-text"
+                                                        >Preformatted Text</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-hr"
+                                                        >Hr</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-02-text/00-atoms-02-text.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-page-header"
+                                                        >Page Header</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--lists">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-03-lists/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-lists"
+                                                    >Lists</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Lists"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Lists<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Lists" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-03-lists/00-atoms-03-lists.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-unordered"
+                                                        >Unordered</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-03-lists/00-atoms-03-lists.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-ordered"
+                                                        >Ordered</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-03-lists/00-atoms-03-lists.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-definition"
+                                                        >Definition</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--forms">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-04-forms/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-forms"
+                                                    >Forms</a
+                                                >
+                                            </div>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--buttons">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-05-buttons/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-buttons"
+                                                    >Buttons</a
+                                                >
+                                            </div>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--tables">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-06-tables/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-tables"
+                                                    >Tables</a
+                                                >
+                                            </div>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--media">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/00-atoms-07-media/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-atoms-media"
+                                                    >Media</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Media"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Media<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Media" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-07-media/00-atoms-07-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-badges"
+                                                        >Badges</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-07-media/00-atoms-07-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-labels"
+                                                        >Labels</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-07-media/00-atoms-07-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-labels-variants"
+                                                        >Labels Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-07-media/00-atoms-07-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-progress-bars"
+                                                        >Progress Bars</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-07-media/00-atoms-07-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-progress-bars-variants"
+                                                        >Progress Bars Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/00-atoms-07-media/00-atoms-07-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="atoms-thumbnails"
+                                                        >Thumbnails</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item">
+                                            <a
+                                                href="patterns/00-atoms/index.html"
+                                                class="pl-c-nav__link pl-c-nav__link--pattern pl-is-active"
+                                                data-patternpartial="viewall-atoms-all"
+                                                tabindex="0"
+                                                >View All Atoms</a
+                                            >
+                                        </li>
+                                        <li class="pl-c-nav__item">
+                                            <a
+                                                href="patterns/00-atoms-00-glyphicons/00-atoms-00-glyphicons.html"
+                                                class="pl-c-nav__link pl-c-nav__link--pattern"
+                                                data-patternpartial="atoms-glyphicons"
+                                                tabindex="0"
+                                                >Glyphicons</a
+                                            >
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li class="pl-c-nav__item pl-c-nav__item--molecules">
+                                    <button
+                                        class="pl-c-nav__link pl-c-nav__link--title pl-js-acc-handle "
+                                        role="tab"
+                                        aria-controls="molecules"
+                                        isopenclass="pl-is-active"
+                                    >
+                                        <span class="pl-c-nav__link-icon"
+                                            ><svg width="16" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6.984 9.984h10.031L11.999 15z"></path></svg></span
+                                        ><span class="pl-c-nav__link-text">Molecules</span>
+                                    </button>
+                                    <ol class="pl-c-nav__sublist pl-c-nav__sublist--dropdown pl-js-acc-panel">
+                                        <li class="pl-c-nav__item pl-c-nav__item--blocks">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-00-blocks/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-blocks"
+                                                    >Blocks</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Blocks"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Blocks<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Blocks" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-00-blocks/01-molecules-00-blocks.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-panels"
+                                                        >Panels</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-00-blocks/01-molecules-00-blocks.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-panels-variants"
+                                                        >Panels</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-00-blocks/01-molecules-00-blocks.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-wells"
+                                                        >Wells</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-00-blocks/01-molecules-00-blocks.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-wells-variants"
+                                                        >Wells</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--media">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-01-media/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-media"
+                                                    >Media</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Media"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Media<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Media" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-01-media/01-molecules-01-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-jumbotron"
+                                                        >Jumbotron</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-01-media/01-molecules-01-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-media-variants"
+                                                        >Media Object Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-01-media/01-molecules-01-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-responsive-embed"
+                                                        >Responsive Embed</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-01-media/01-molecules-01-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-thumbnails-caption"
+                                                        >Thumbnails Caption</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--forms">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-02-forms/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-forms"
+                                                    >Forms</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Forms"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Forms<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Forms" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-02-forms/01-molecules-02-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-input-groups"
+                                                        >Input Groups</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-02-forms/01-molecules-02-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-input-groups-variants"
+                                                        >Input Groups Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-02-forms/01-molecules-02-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-input-groups-checkbox"
+                                                        >Input Groups Checkbox</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-02-forms/01-molecules-02-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-input-groups-radio"
+                                                        >Input Groups Checkbox</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-02-forms/01-molecules-02-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-input-groups-button"
+                                                        >Input Groups Button</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--navigation">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-03-navigation/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-navigation"
+                                                    >Navigation</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Navigation"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Navigation<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Navigation" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-breadcrumbs"
+                                                        >Breadcrumbs</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-dropdown"
+                                                        >Button Dropdown</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-dropdown-variants"
+                                                        >Button Dropdown</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-dropdown-split"
+                                                        >Button Dropdown Split</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-dropdown-split-variants"
+                                                        >Button Dropdown Split Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-dropup"
+                                                        >Button Dropup</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-dropup-variants"
+                                                        >Button Dropup Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-dropdown"
+                                                        >Dropdown</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-dropdown-variants"
+                                                        >Dropdown Header</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-navs"
+                                                        >Navs</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-navs-variants"
+                                                        >Navs</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-pagination"
+                                                        >Pagination</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-pagination-variants"
+                                                        >Pagination</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-pager"
+                                                        >Pager</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-pager-variants"
+                                                        >Pager Variants</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-navbar-nav"
+                                                        >Navbar Nav</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-03-navigation/01-molecules-03-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-navbar-form"
+                                                        >Navbar Form</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--components">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-04-components/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-components"
+                                                    >Components</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Components"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Components<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Components" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-04-components/01-molecules-04-components.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-groups"
+                                                        >Button Groups</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-04-components/01-molecules-04-components.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-button-groups-variants"
+                                                        >Button Groups</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--messaging">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-05-messaging/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-messaging"
+                                                    >Messaging</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Messaging"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Messaging<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Messaging" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-05-messaging/01-molecules-05-messaging.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-alerts"
+                                                        >Alerts</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-05-messaging/01-molecules-05-messaging.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-alerts-variants"
+                                                        >Alerts Variants</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--list-groups">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/01-molecules-06-list-groups/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-molecules-list-groups"
+                                                    >List-groups</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="List-groups"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    List-groups<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="List-groups" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-06-list-groups/01-molecules-06-list-groups.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-list-group"
+                                                        >List Group</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/01-molecules-06-list-groups/01-molecules-06-list-groups.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="molecules-list-group-variants"
+                                                        >List Group</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item">
+                                            <a
+                                                href="patterns/01-molecules/index.html"
+                                                class="pl-c-nav__link pl-c-nav__link--pattern"
+                                                data-patternpartial="viewall-molecules-all"
+                                                tabindex="0"
+                                                >View All Molecules</a
+                                            >
+                                        </li>
+                                        <li class="pl-c-nav__item">
+                                            <a
+                                                href="patterns/01-molecules-01-media/01-molecules-01-media.html"
+                                                class="pl-c-nav__link pl-c-nav__link--pattern"
+                                                data-patternpartial="molecules-media"
+                                                tabindex="0"
+                                                >Media Object</a
+                                            >
+                                        </li>
+                                    </ol>
+                                </li>
+                                <li class="pl-c-nav__item pl-c-nav__item--organisms">
+                                    <button
+                                        class="pl-c-nav__link pl-c-nav__link--title pl-js-acc-handle "
+                                        role="tab"
+                                        aria-controls="organisms"
+                                        isopenclass="pl-is-active"
+                                    >
+                                        <span class="pl-c-nav__link-icon"
+                                            ><svg width="16" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                <path d="M6.984 9.984h10.031L11.999 15z"></path></svg></span
+                                        ><span class="pl-c-nav__link-text">Organisms</span>
+                                    </button>
+                                    <ol class="pl-c-nav__sublist pl-c-nav__sublist--dropdown pl-js-acc-panel">
+                                        <li class="pl-c-nav__item pl-c-nav__item--navigation">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/02-organisms-00-navigation/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-organisms-navigation"
+                                                    >Navigation</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Navigation"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Navigation<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Navigation" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/02-organisms-00-navigation/02-organisms-00-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="organisms-navbar"
+                                                        >Navigation Bar</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/02-organisms-00-navigation/02-organisms-00-navigation.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="organisms-navbar-variants"
+                                                        >Navbar Variants</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--forms">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/02-organisms-01-forms/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-organisms-forms"
+                                                    >Forms</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Forms"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Forms<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Forms" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/02-organisms-01-forms/02-organisms-01-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="organisms-input-groups-dropdown"
+                                                        >Input Groups Dropdown</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/02-organisms-01-forms/02-organisms-01-forms.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="organisms-input-groups-segmented"
+                                                        >Input Groups Dropdown</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item pl-c-nav__item--media">
+                                            <div class="pl-c-nav__link--overview-wrapper">
+                                                <a
+                                                    href="patterns/02-organisms-02-media/index.html"
+                                                    class="pl-c-nav__link pl-c-nav__link--sublink
+                pl-c-nav__link--overview pl-js-link-overview
+                "
+                                                    data-patternpartial="viewall-organisms-media"
+                                                    >Media</a
+                                                ><button
+                                                    class="pl-c-nav__link pl-c-nav__link--section-dropdown pl-js-acc-handle "
+                                                    role="tab"
+                                                    aria-controls="Media"
+                                                    isopenclass="pl-is-active"
+                                                >
+                                                    Media<span class="pl-c-nav__link-icon"
+                                                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                                            <path d="M6.984 9.984h10.031L11.999 15z"></path></svg
+                                                    ></span>
+                                                </button>
+                                            </div>
+                                            <ol id="Media" class="pl-c-nav__subsublist pl-c-nav__subsublist--dropdown pl-js-acc-panel">
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/02-organisms-02-media/02-organisms-02-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="organisms-media-object"
+                                                        >Media Object</a
+                                                    >
+                                                </li>
+                                                <li class="pl-c-nav__item">
+                                                    <a
+                                                        href="patterns/02-organisms-02-media/02-organisms-02-media.html"
+                                                        class="pl-c-nav__link pl-c-nav__link--sublink
+                      pl-c-nav__link--subsublink
+                    "
+                                                        data-patternpartial="organisms-media-list"
+                                                        >Media List</a
+                                                    >
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li class="pl-c-nav__item">
+                                            <a
+                                                href="patterns/02-organisms/index.html"
+                                                class="pl-c-nav__link pl-c-nav__link--pattern"
+                                                data-patternpartial="viewall-organisms-all"
+                                                tabindex="0"
+                                                >View All Organisms</a
+                                            >
+                                        </li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </pl-nav>
+                    </nav>
+                    <pl-controls>
+                        <div class="pl-c-controls">
+                            <form class="pl-c-viewport-size" method="post" action="#">
+                                <input type="text" class="pl-c-viewport-size__input" id="pl-size-px" readonly="true" /><label
+                                    for="pl-size-px"
+                                    class="pl-c-viewport-size__label"
+                                    >px /</label
+                                ><input type="text" class="pl-c-viewport-size__input" id="pl-size-em" readonly="true" /><label
+                                    for="pl-size-em"
+                                    class="pl-c-viewport-size__label"
+                                    >em</label
+                                >
+                            </form>
+                            <pl-viewport-sizes>
+                                <ul class="pl-c-size-list">
+                                    <li class="pl-c-size-list__item">
+                                        <span
+                                            ><button class="pl-c-size-list__action" id="pl-size-s">
+                                                <div
+                                                    style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; position: absolute;"
+                                                >
+                                                    Resize viewport to small
+                                                </div>
+                                                <svg width="14" height="20" fill="currentColor" viewBox="0 0 24 12">
+                                                    <path
+                                                        d="M15.984 18V3.984h-9V18h9zm-4.5 3.984c.844 0 1.5-.656 1.5-1.5s-.656-1.5-1.5-1.5-1.5.656-1.5 1.5.656 1.5 1.5 1.5zm4.032-21C16.875.984 18 2.156 18 3.515v16.969c0 1.359-1.125 2.531-2.484 2.531H7.5c-1.359 0-2.484-1.172-2.484-2.531V3.515C5.016 2.156 6.141.984 7.5.984h8.016z"
+                                                    ></path>
+                                                </svg></button
+                                        ></span>
+                                    </li>
+                                    <li class="pl-c-size-list__item">
+                                        <span
+                                            ><button class="pl-c-size-list__action" id="pl-size-m">
+                                                <div
+                                                    style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; position: absolute;"
+                                                >
+                                                    Resize viewport to medium
+                                                </div>
+                                                <svg width="16" height="24" fill="currentColor" viewBox="0 0 24 16">
+                                                    <path
+                                                        d="M18.984 18.984V3h-15v15.984h15zm-7.5 4.032c.844 0 1.5-.656 1.5-1.5s-.656-1.5-1.5-1.5-1.5.656-1.5 1.5.656 1.5 1.5 1.5zM18.516 0A2.5 2.5 0 0121 2.484v19.031a2.5 2.5 0 01-2.484 2.484H4.5a2.5 2.5 0 01-2.484-2.484V2.484A2.5 2.5 0 014.5 0h14.016z"
+                                                    ></path>
+                                                </svg></button
+                                        ></span>
+                                    </li>
+                                    <li class="pl-c-size-list__item">
+                                        <span
+                                            ><button class="pl-c-size-list__action" id="pl-size-l">
+                                                <div
+                                                    style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; position: absolute;"
+                                                >
+                                                    Resize viewport to large
+                                                </div>
+                                                <svg width="24" height="22" fill="currentColor" viewBox="0 0 24 20">
+                                                    <path
+                                                        d="M12 18.984c.563 0 .984-.422.984-.984s-.422-.984-.984-.984-.984.422-.984.984.422.984.984.984zM3.984 5.016v10.969h16.031V5.016H3.984zM20.016 18H24c0 1.078-.938 2.016-2.016 2.016H2.015c-1.078 0-2.016-.938-2.016-2.016h3.984c-1.078 0-1.969-.938-1.969-2.016V5.015c0-1.078.891-2.016 1.969-2.016h16.031c1.078 0 1.969.938 1.969 2.016v10.969c0 1.078-.891 2.016-1.969 2.016z"
+                                                    ></path>
+                                                </svg></button
+                                        ></span>
+                                    </li>
+                                    <li class="pl-c-size-list__item">
+                                        <span
+                                            ><button class="pl-c-size-list__action" id="pl-size-full">
+                                                <div
+                                                    style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; position: absolute;"
+                                                >
+                                                    Resize viewport to full
+                                                </div>
+                                                <svg width="24" height="22" fill="currentColor" viewBox="0 0 24 20">
+                                                    <path
+                                                        d="M21 14.016V3.985H3v10.031h18zm0-12c1.078 0 2.016.891 2.016 1.969v12c0 1.078-.938 2.016-2.016 2.016h-6.984l1.969 3v.984H8.016v-.984l1.969-3H3.001c-1.078 0-2.016-.938-2.016-2.016v-12c0-1.078.938-1.969 2.016-1.969h18z"
+                                                    ></path>
+                                                </svg></button
+                                        ></span>
+                                    </li>
+                                </ul>
+                            </pl-viewport-sizes>
+                            <pl-tools-menu>
+                                <div class="pl-c-tools">
+                                    <button class="pl-c-tools__toggle pl-js-acc-handle" title="Tools">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" class="pl-c-tools__toggle-icon" fill="currentColor">
+                                            <path
+                                                d="M12 15.516c1.922 0 3.516-1.594 3.516-3.516S13.922 8.484 12 8.484 8.484 10.078 8.484 12s1.594 3.516 3.516 3.516zm7.453-2.532l2.109 1.641c.188.141.234.422.094.656L19.64 18.75c-.141.234-.375.281-.609.188l-2.484-.984c-.516.375-1.078.75-1.688.984l-.375 2.625c-.047.234-.234.422-.469.422H9.984c-.234 0-.422-.188-.469-.422l-.375-2.625a6.145 6.145 0 01-1.688-.984l-2.484.984c-.234.094-.469.047-.609-.188l-2.016-3.469c-.141-.234-.094-.516.094-.656l2.109-1.641c-.047-.328-.047-.656-.047-.984s0-.656.047-.984L2.437 9.375c-.188-.141-.234-.422-.094-.656L4.359 5.25c.141-.234.375-.281.609-.188l2.484.984c.516-.375 1.078-.75 1.688-.984l.375-2.625c.047-.234.234-.422.469-.422h4.031c.234 0 .422.188.469.422l.375 2.625a6.145 6.145 0 011.688.984l2.484-.984c.234-.094.469-.047.609.188l2.016 3.469c.141.234.094.516-.094.656l-2.109 1.641c.047.328.047.656.047.984s0 .656-.047.984z"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                    <ul class="pl-c-tools__list pl-js-acc-panel">
+                                        <li class="pl-c-tools__item">
+                                            <pl-toggle-info
+                                                ><button class="pl-c-tools__action">
+                                                    <span class="pl-c-tools__action-text">Show all Pattern Info</span
+                                                    ><span class="pl-c-tools__action-icon"
+                                                        ><svg width="20" height="20" fill="currentColor">
+                                                            <path
+                                                                d="M.2 10C2.06 6.408 5.748 3.996 10 3.996s7.94 2.412 9.771 5.943L19.8 10c-1.86 3.592-5.548 6.004-9.8 6.004S2.06 13.592.229 10.061L.2 10zm9.8 4a4 4 0 000-8 4 4 0 000 8zm0-2a2 2 0 110-4 2 2 0 110 4z"
+                                                            ></path></svg
+                                                    ></span></button
+                                            ></pl-toggle-info>
+                                        </li>
+                                        <li class="pl-c-tools__item">
+                                            <pl-toggle-layout>
+                                                <div class="pl-c-toggle-layout">
+                                                    <button class="pl-c-tools__action pl-c-toggle-layout__action" title="Switch Layout">
+                                                        <span class="pl-c-tools__action-text">Switch Layout</span
+                                                        ><span class="pl-c-tools__action-icon"
+                                                            ><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                width="20"
+                                                                height="20"
+                                                                viewBox="0 0 32 32"
+                                                                stroke="currentColor"
+                                                                stroke-width="1"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                            >
+                                                                <path
+                                                                    d="M3 4v25h25v-25h-25zM27 28h-23v-17h23v17zM27 10h-23v-5h23v5z"
+                                                                ></path></svg
+                                                        ></span>
+                                                    </button>
+                                                </div>
+                                            </pl-toggle-layout>
+                                        </li>
+                                        <li class="pl-c-tools__item">
+                                            <pl-toggle-theme>
+                                                <div class="pl-c-toggle-theme">
+                                                    <button class="pl-c-tools__action pl-c-toggle-theme__action" title="Switch Theme">
+                                                        <span class="pl-c-tools__action-text">Switch Theme</span
+                                                        ><span class="pl-c-tools__action-icon"
+                                                            ><svg
+                                                                xmlns="http://www.w3.org/2000/svg"
+                                                                width="20"
+                                                                height="20"
+                                                                viewBox="0 0 24 24"
+                                                                fill="none"
+                                                                stroke="currentColor"
+                                                                stroke-width="2"
+                                                                stroke-linecap="round"
+                                                                stroke-linejoin="round"
+                                                            >
+                                                                <circle cx="12" cy="12" r="5"></circle>
+                                                                <line x1="12" y1="1" x2="12" y2="3"></line>
+                                                                <line x1="12" y1="21" x2="12" y2="23"></line>
+                                                                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                                                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                                                <line x1="1" y1="12" x2="3" y2="12"></line>
+                                                                <line x1="21" y1="12" x2="23" y2="12"></line>
+                                                                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                                                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg
+                                                        ></span>
+                                                    </button>
+                                                </div>
+                                            </pl-toggle-theme>
+                                        </li>
+                                        <li class="pl-c-tools__item">
+                                            <a
+                                                href="patterns/00-atoms/index.html"
+                                                class="pl-c-tools__action pl-js-open-new-window"
+                                                target="_blank"
+                                                ><span class="pl-c-tools__action-text">Open In New Tab</span
+                                                ><span class="pl-c-tools__action-icon"
+                                                    ><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                                        <path
+                                                            d="M14.016 3H21v6.984h-2.016V6.421l-9.797 9.797-1.406-1.406 9.797-9.797h-3.563V2.999zm4.968 15.984V12H21v6.984C21 20.062 20.062 21 18.984 21H5.015c-1.125 0-2.016-.938-2.016-2.016V5.015c0-1.078.891-2.016 2.016-2.016h6.984v2.016H5.015v13.969h13.969z"
+                                                        ></path></svg></span
+                                            ></a>
+                                        </li>
+                                        <li class="pl-c-tools__item">
+                                            <a href="http://patternlab.io/docs/" class="pl-c-tools__action" target="_blank"
+                                                ><span class="pl-c-tools__action-text">Pattern Lab Docs</span
+                                                ><span class="pl-c-tools__action-icon"
+                                                    ><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                                        <path
+                                                            d="M12 6a3.98 3.98 0 013.984 3.984c0 2.484-3 2.766-3 5.016h-1.969c0-3.234 3-3 3-5.016 0-1.078-.938-1.969-2.016-1.969s-2.016.891-2.016 1.969H8.014A3.98 3.98 0 0111.998 6zm0 14.016c4.406 0 8.016-3.609 8.016-8.016S16.407 3.984 12 3.984 3.984 7.593 3.984 12 7.593 20.016 12 20.016zm0-18c5.531 0 9.984 4.453 9.984 9.984S17.531 21.984 12 21.984 2.016 17.531 2.016 12 6.469 2.016 12 2.016zM11.016 18v-2.016h1.969V18h-1.969z"
+                                                        ></path></svg></span
+                                            ></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </pl-tools-menu>
+                        </div>
+                    </pl-controls>
+                </header>
+            </pl-header>
+            <div class="pl-c-viewport-modal-wrapper">
+                <pl-iframe>
+                    <div class="pl-c-viewport pl-js-viewport">
+                        <div class="pl-c-viewport__cover pl-js-viewport-cover"></div>
+                        <div class="pl-c-viewport__iframe-wrapper pl-js-vp-iframe-container" style="width: 2114px;">
+                            <iframe
+                                class="pl-c-viewport__iframe pl-js-iframe pl-c-body--theme-dark"
+                                sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-modals"
+                                src="patterns/00-atoms/index.html"
+                            ></iframe>
+                            <div class="pl-c-viewport__resizer pl-js-resize-container">
+                                <div class="pl-c-viewport__resizer-handle pl-js-resize-handle">
+                                    <svg
+                                        viewBox="0 0 20 20"
+                                        preserveAspectRatio="xMidYMid"
+                                        focusable="false"
+                                        style="width: 30px; fill: currentcolor; position: absolute; top: 50%; transform: translate3d(0px, -50%, 0px); z-index: 100;"
+                                    >
+                                        <title>Drag to resize Pattern Lab</title>
+                                        <path d="M6 0h2v20H6zM13 0h2v20h-2z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </pl-iframe>
+                <pl-drawer>
+                    <div>
+                        <div class="pl-c-drawer__cover" style="display: none;"></div>
+                        <div
+                            class="rah-static rah-static--height-zero pl-c-drawer__wrapper"
+                            aria-hidden="true"
+                            style="height: 0px; overflow: hidden;"
+                        >
+                            <div class="" style="display: none;">
+                                <div class="pl-c-drawer pl-js-drawer">
+                                    <div class="pl-c-drawer__toolbar">
+                                        <div class="pl-c-drawer__resizer"></div>
+                                        <div class="pl-c-drawer__toolbar-controls">
+                                            <button class="pl-c-drawer__close-btn" title="Menu">
+                                                <svg
+                                                    width="20"
+                                                    height="20"
+                                                    fill="currentColor"
+                                                    viewBox="0 0 24 24"
+                                                    class="pl-c-drawer__close-btn-icon"
+                                                >
+                                                    <path
+                                                        d="M18.984 6.422L13.406 12l5.578 5.578-1.406 1.406L12 13.406l-5.578 5.578-1.406-1.406L10.594 12 5.016 6.422l1.406-1.406L12 10.594l5.578-5.578z"
+                                                    ></path>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="pl-c-drawer__content pl-js-drawer-content"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </pl-drawer>
+            </div>
+            <!---->
+        </pl-layout>
+        <!-- <script type="text/mustache" class="pl-js-panel-template-base">
+            {{# descBlockExists }}
+            			<div class="pl-c-pattern-info__panel pl-c-pattern-info__panel--info pl-js-pattern-info">
+            				{{# isPatternView }}
+            					<div class=pl-c-pattern-info__header>
+            						<ul class=pl-c-breadcrumb> {{# patternBreadcrumb }}
+            								<li class=pl-c-breadcrumb__item>{{ patternType }}</li> {{# patternSubtype }}
+            									<li class=pl-c-breadcrumb__item>{{ patternSubtype }}</li> {{/ patternSubtype }}
+            									{{/ patternBreadcrumb }} </ul>
+            						<h2 class=pl-c-pattern-info__title> {{ patternName }} {{# patternState }} <span
+            									class="pl-c-pattern-state pl-c-pattern-state--{{ patternState }}"
+            									title="{{ patternState }}"></span> {{/ patternState }} </h2>
+            					</div> {{/ isPatternView }} {{# patternDescExists }}
+            						<div class="pl-c-pattern-info__description pl-c-text-passage"> {{{ patternDesc }}}
+            							{{# patternDescAdditions }} {{{ patternDescAdditions }}} {{/ patternDescAdditions }}
+            						</div>
+            						{{/ patternDescExists }} {{# lineageExists }}
+            							<p class="pl-c-lineage pl-js-lineage"> The <em>{{ patternName }}</em> pattern contains
+            								the
+            								following patterns: {{# lineage }} <a href="{{ lineagePath }}"
+            										class="pl-c-lineage__link pl-js-lineage-link"
+            										data-patternpartial="{{ lineagePattern }}"> {{ lineagePattern }}
+            										{{# lineageState }}<span
+            												class="pl-c-pattern-state pl-c-pattern-state--{{ lineageState }}"
+            												title="{{ lineageState }}" />{{/ lineageState }} </a>
+            									{{# hasComma }},
+            										{{/ hasComma }} {{/ lineage }} </p> {{/ lineageExists }}
+            							{{# lineageRExists }}
+            								<p class=pl-c-lineage> The <em>{{ patternName }}</em> pattern is included in the
+            									following patterns: {{# lineageR }} <a href="{{ lineagePath }}"
+            											class="pl-c-lineage__link pl-js-lineage-link"
+            											data-patternpartial="{{ lineagePattern }}"> {{ lineagePattern }}
+            											{{# lineageState }}<span
+            													class="pl-c-pattern-state pl-c-pattern-state--{{ lineageState }}"
+            													title="{{ lineageState }}" />{{/ lineageState }} </a>
+            										{{# hasComma }}, {{/ hasComma }} {{/ lineageR }} </p> {{/ lineageRExists }}
+            								{{# annotationExists }}
+            									<div class="pl-c-annotations pl-c-text-passage pl-js-annotations">
+            										<h2 class=pl-c-annotations__title>Annotations</h2>
+            										<ol class=pl-c-annotations__list> {{# annotations }}
+            												<li class=pl-c-annotations__item>
+            													<h3 class=pl-c-annotations__item-title>{{ title }}</h3>
+            													<div class=pl-c-annotations__item-body> {{{ comment }}} </div>
+            												</li> {{/ annotations }} </ol>
+            									</div> {{/ annotationExists }} </div> {{/ descBlockExists }}
+            			<div class="pl-c-pattern-info__panel pl-c-pattern-info__panel--code">
+            				<div id="pl-{{ patternPartial }}-tabs" class="pl-c-tabs pl-js-tabs">
+            					<div class=pl-c-tabs__header>
+            						<ul class=pl-c-tabs__list> {{# panels }}
+            								<li class=pl-c-tabs__list-item> <a class="pl-c-tabs__link pl-js-tab-link"
+            										href="#pl-{{ patternPartial }}-{{ id }}-panel"
+            										id="pl-{{ patternPartial }}-{{ id }}-tab"
+            										data-patternpartial="{{ patternPartial }}"
+            										data-panelid="{{ id }}">{{ name }}</a> </li> {{/ panels }} </ul>
+            					</div>
+            					<div id="pl-{{ patternPartial }}-panels" class=pl-c-tabs__content> {{# panels }}
+            							<div id="pl-{{ patternPartial }}-{{ id }}-panel"
+            								class="pl-c-tabs__panel pl-js-tab-panel">
+            								<button class="pl-c-code-copy-btn pl-js-code-copy-btn"
+            									data-clipboard-target="#pl-{{ patternPartial }}-{{ id }}-panel code"> Copy
+            								</button>
+            								{{{ content }}} </div> {{/ panels }} </div>
+            				</div>
+            			</div>
+        </script> -->
+        <!-- <script src="styleguide/data/patternlab-data.js" defer="defer"></script> -->
+        <!-- <script src="annotations/annotations.js" defer="defer"></script> -->
+        <script src="styleguide/js/patternlab-viewer.js" defer="defer"></script>
+        <script></script>
+
+        <!-- the template for code-related tabs in the code view slider -->
+        <script type="text/mustache" id="pl-panel-template-code">
+            			<pre class="language-markup">
+            	<code id="pl-code-fill-{{ language }}" class="language-{{ language }}">{{{ code }}}</code>
+            </pre>
+        </script>
+
+        <!-- load Pattern Lab data -->
+        <!-- <script src="styleguide/data/patternlab-data.js"></script> -->
+
+        <!-- applying theme config to get classes on before PL renders so there's no flash of unstyled content -->
+        <!-- @todo Consider moving this to own file -->
+        <!-- <script>
+			if (config && config.theme) {
+				if (config.theme.color === 'light') {
+					document.body.classList.add('pl-c-body--theme-light');
+				}
+				if (config.theme.layout === 'vertical') {
+					document.body.classList.add('pl-c-body--theme-sidebar');
+				}
+				switch (config.theme.density) {
+					case 'cozy':
+					document.body.classList.add('pl-c-body--theme-density-cozy');
+					break;
+					case 'comfortable':
+					document.body.classList.add('pl-c-body--theme-density-comfortable');
+					break;
+					default:
+					// not sure if you even need/want this
+					document.body.classList.add('pl-c-body--theme-density-compact');
+				}
+			}
+		</script> -->
+
+        <!-- <script src="annotations/annotations.js"></script> -->
+
+        <!-- load Pattern Lab external library js -->
+        <script src="styleguide/bower_components/jquery.min.js"></script>
+        <script src="styleguide/bower_components/hogan-3.0.2.min.js"></script>
+        <script src="styleguide/bower_components/prism.min.js"></script>
+        <script src="styleguide/bower_components/jwerty.min.js"></script>
+        <script src="styleguide/bower_components/typeahead.bundle.min.js"></script>
+        <script src="styleguide/bower_components/EventEmitter.min.js"></script>
+        <script src="styleguide/bower_components/script.min.js"></script>
+
+        <!-- set-up the dispatcher -->
+        <script>
+            var Dispatcher = new EventEmitter()
+        </script>
+
+        <!-- load the Pattern Lab viewer js -->
+        <script src="styleguide/js/patternlab-viewer.js"></script>
+    </body>
+</html>

@@ -75,7 +75,7 @@
 .pl-c-body {
   margin: 0;
   padding: 0;
-  background: #ddd;
+  background: #eee;
   -webkit-text-size-adjust: 100%; }
 
 /*------------------------------------*\
@@ -101,8 +101,9 @@
   display: flex;
   /* 2 */
   width: 100%;
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /* $pl-color-black;*/
+  color: #fafafa;
   font-family: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
   font-size: 0.7rem; }
 
@@ -112,8 +113,9 @@
  *    only appears on small screens
  */
 .pl-c-header__nav-toggle {
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -132,10 +134,12 @@
   border: 0; }
   .pl-c-header__nav-toggle:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-header__nav-toggle:focus, .pl-c-header__nav-toggle.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-header__nav-toggle {
@@ -159,7 +163,7 @@
  * 2) Displayed as a link
  */
 .pl-c-logo {
-  max-width: 2rem;
+  max-width: 9rem;
   margin: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -256,8 +260,9 @@
 .pl-c-nav__link {
   display: flex;
   align-items: center;
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -275,10 +280,12 @@
      */ }
   .pl-c-nav__link:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-nav__link:focus, .pl-c-nav__link.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-nav__link {
@@ -466,8 +473,9 @@
  * 1) These are the buttons that control the viewport resizing
  */
 .pl-c-size-list__action {
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -485,10 +493,12 @@
      */ }
   .pl-c-size-list__action:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-size-list__action:focus, .pl-c-size-list__action.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-size-list__action {
@@ -542,8 +552,9 @@
  *    triggers the tools dropdown list
  */
 .pl-c-tools__toggle {
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -569,10 +580,12 @@
   min-width: 30px; }
   .pl-c-tools__toggle:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-tools__toggle:focus, .pl-c-tools__toggle.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-tools__toggle {
@@ -628,8 +641,9 @@
  * 1) Links and buttons inside of the tools dropdown
  */
 .pl-c-tools__action {
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -650,10 +664,12 @@
   margin: 0; }
   .pl-c-tools__action:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-tools__action:focus, .pl-c-tools__action.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-tools__action {
@@ -1287,8 +1303,9 @@
  *    triggers the tools dropdown list
  */
 .pl-c-tools__toggle {
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -1314,10 +1331,12 @@
   min-width: 30px; }
   .pl-c-tools__toggle:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-tools__toggle:focus, .pl-c-tools__toggle.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-tools__toggle {
@@ -1373,8 +1392,9 @@
  * 1) Links and buttons inside of the tools dropdown
  */
 .pl-c-tools__action {
-  background: #000;
-  color: #808080;
+  background: #121314;
+  /*$pl-color-black;*/
+  color: #a0ef6e;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -1395,10 +1415,12 @@
   margin: 0; }
   .pl-c-tools__action:hover {
     color: #fff;
-    background: #222; }
+    background: #42464a;
+    /*$pl-color-gray-87;*/ }
   .pl-c-tools__action:focus, .pl-c-tools__action.active {
     color: #fff;
-    background: #222;
+    background: #42464a;
+    /*$pl-color-gray-87;*/
     outline: 1px dotted #808080;
     outline-offset: -1px; }
   .pl-c-body--theme-light .pl-c-tools__action {
@@ -1769,13 +1791,13 @@
 /**
  * Using Twitter Typeahead to autocomplete pattern
  * searches. https://twitter.github.io/typeahead.js/
- * 1) Wrapped in pl-c-header to contain styles for projects that 
+ * 1) Wrapped in pl-c-header to contain styles for projects that
  *    might already be using Typeahead
 */
 .pl-c-header {
   /**
      * Typeahead input
-     * 1) the primary DOM element that initiates the JS library 
+     * 1) the primary DOM element that initiates the JS library
      */
   /**
      * Typeahead wrapper
@@ -1784,7 +1806,8 @@
      */ }
   .pl-c-header .pl-c-typeahead {
     border: 0;
-    background: #222 !important;
+    background: #121314 !important;
+    /*$pl-color-gray-87 !important;*/
     color: #808080;
     width: 100%;
     right: 0;
@@ -1793,6 +1816,10 @@
     .pl-c-header .pl-c-typeahead:focus {
       background: #808080;
       color: #fff; }
+  .pl-c-header .pl-c-typeahead__input {
+    line-height: 2;
+    width: 100%;
+    border-radius: 3px; }
   .pl-c-header .twitter-typeahead {
     display: flex !important;
     order: 2;
@@ -2108,11 +2135,11 @@ pre.line-numbers > code {
      */
   /**
      * Viewport sizing inputs
-     * 1) Hide these controls on 
+     * 1) Hide these controls on
      */
   /**
      * Tools menu button
-     * 1) This is the button that contains the toggle and 
+     * 1) This is the button that contains the toggle and
      *    triggers the tools dropdown list
      */
   /**
@@ -2125,7 +2152,11 @@ pre.line-numbers > code {
   .pl-c-body--theme-density-cozy .pl-c-viewport-size__input {
     width: 44px; }
   .pl-c-body--theme-density-cozy .pl-c-typeahead {
-    padding: 0.9rem 0.8rem; }
+    line-height: 2;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%; }
   @media all and (max-width: 78em) {
     .pl-c-body--theme-density-cozy .pl-c-size-list {
       display: none; } }
@@ -2170,7 +2201,7 @@ pre.line-numbers > code {
      */
   /**
      * Tools menu button
-     * 1) This is the button that contains the toggle and 
+     * 1) This is the button that contains the toggle and
      *    triggers the tools dropdown list
      */
   /**
@@ -2181,7 +2212,7 @@ pre.line-numbers > code {
   .pl-c-body--theme-density-comfortable .pl-c-header {
     font-size: 0.85rem; }
   .pl-c-body--theme-density-comfortable .pl-c-logo {
-    max-width: 4rem; }
+    max-width: 9rem; }
   .pl-c-body--theme-density-comfortable .pl-c-header .tt-suggestion {
     padding: 1.5rem 1rem; }
   .pl-c-body--theme-density-comfortable .pl-c-viewport-size__input {
@@ -2266,7 +2297,7 @@ pre.line-numbers > code {
     /**
         * Nav controls
         * 1) Push off of navigation in flex container so
-        *    they appear at the bottom 
+        *    they appear at the bottom
         */
     /**
          * Dynamically added wrapper around typeahead input
@@ -2282,30 +2313,30 @@ pre.line-numbers > code {
          * Tools action
          */
     /**
-         * Viewport 
+         * Viewport
          * 1) Position viewport (that contains all the content)
-         *    so it fits in remaining available space 
+         *    so it fits in remaining available space
          */
     /**
          * Iframe wrapper div
-         * 1) Wipe out dynamic resizing functionality for sidebar mode 
+         * 1) Wipe out dynamic resizing functionality for sidebar mode
          */
     /**
          * Iframe
-         * 1) Wipe out dynamic resizing  functionality for sidebar mode 
-         *    TODO: revisit to find ways to resize 
+         * 1) Wipe out dynamic resizing  functionality for sidebar mode
+         *    TODO: revisit to find ways to resize
          */
     /**
-         * Viewport 
+         * Viewport
          * 1) Position viewport (that contains all the content)
-         *    so it fits in remaining available space 
-         *    TODO: revisit to find ways to resize 
+         *    so it fits in remaining available space
+         *    TODO: revisit to find ways to resize
          */
     /**
-         * Modal 
+         * Modal
          * 1) Position modal (that contains all the content)
-         *    so it fits in remaining available space 
-         *    TODO: revisit to find ways to resize 
+         *    so it fits in remaining available space
+         *    TODO: revisit to find ways to resize
          */ }
     .pl-c-body--theme-sidebar .pl-c-header {
       width: 14rem;
@@ -2324,8 +2355,12 @@ pre.line-numbers > code {
     .pl-c-body--theme-sidebar.pl-c-body--theme-light .pl-c-header {
       border-right: 1px solid #ccc; }
     .pl-c-body--theme-sidebar .pl-c-logo {
-      max-width: 7rem;
-      margin: 0 auto 1rem; }
+      max-width: 9rem;
+      margin: 0 auto 1rem;
+      text-decoration: none; }
+    .pl-c-body--theme-sidebar .pl-c-logo__text {
+      color: #119dd9;
+      white-space: nowrap; }
     .pl-c-body--theme-sidebar .pl-c-nav {
       display: block;
       flex-direction: column; }

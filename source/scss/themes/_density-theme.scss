@@ -7,7 +7,7 @@
  * Options are compact (default), cozy, and comfortable
  */
  .pl-c-body--theme-density-cozy {
-    
+
     /**
      * Header
      */
@@ -26,7 +26,12 @@
      * Typeahead
      */
     .pl-c-typeahead {
-        padding: 0.9rem 0.8rem;
+        // padding: 0.9rem 0.8rem;
+        line-height: 2;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        width: 100%;
     }
 
     /**
@@ -41,7 +46,7 @@
 
     /**
      * Viewport sizing inputs
-     * 1) Hide these controls on 
+     * 1) Hide these controls on
      */
     .pl-c-viewport-size {
         @media all and (max-width: 78em) {
@@ -51,7 +56,7 @@
 
     /**
      * Tools menu button
-     * 1) This is the button that contains the toggle and 
+     * 1) This is the button that contains the toggle and
      *    triggers the tools dropdown list
      */
     .pl-c-tools__toggle {
@@ -80,7 +85,7 @@
  */
 
  .pl-c-body--theme-density-comfortable {
-    
+
     /**
      * Header
      * 1) Change the font size of everything in the header
@@ -93,7 +98,7 @@
      * Logo
      */
     .pl-c-logo {
-        max-width: 4rem;
+        max-width: 9rem;
     }
 
     /**
@@ -115,6 +120,7 @@
      */
     .pl-c-typeahead {
         padding: 0.9rem 1rem;
+
     }
 
     /**
@@ -138,7 +144,7 @@
 
     /**
      * Tools menu button
-     * 1) This is the button that contains the toggle and 
+     * 1) This is the button that contains the toggle and
      *    triggers the tools dropdown list
      */
     .pl-c-tools__toggle {

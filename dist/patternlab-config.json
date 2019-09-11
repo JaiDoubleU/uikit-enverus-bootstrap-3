@@ -1,0 +1,159 @@
+{
+  "paths": {
+    "source": {
+      "root": "./source/",
+      "patterns": "./source/_patterns/",
+      "data": "./source/_data/",
+      "docs": "./source/docs/",
+      "styleguideData": "./styleguide/data/",
+      "styleguideJS": "./styleguide/bower_components/",
+      "meta": "./source/_meta/",
+      "annotations": "./source/_annotations/",
+      "animate": "./node_modules/animate.css/",
+      "styleguide": "./node_modules/styleguidekit-assets-default/dist/",
+      "styleguideCustomJS": "./source/js/",
+      "patternlabFiles": "./node_modules/styleguidekit-mustache-default/views/",
+      "js": "./source/js",
+      "images": "./source/images",
+      "fontAwesome5Pro": "./node_modules/@fortawesome/fontawesome-pro/",
+      "glyphIcons": "./node_modules/theme/bower_components/bootstrap/fonts/",
+      "css": "./source/css/",
+      "theme": "./node_modules/@oildex/theme/",
+      "themeJS": "./node_modules/@oildex/theme/bower_components/bootstrap/js/",
+      "themeJQueryJS": "./node_modules/@oildex/theme/bower_components/jquery/dist/js/",
+      "typeahead": "./node_modules/typeahead.js/dist/",
+      "typeaheadBoostrapCSS": "./node_modules/typeahead.js-bootstrap-css/",
+      "tota11y": ".node_modules/@khanacademy/tota11y/dist",
+      "handlebars": "./node_modules/handlebars/dist/",
+      "bootstrap": "./node_modules/bootstrap/js/",
+      "jqueryUI": "./node_modules/jquery-ui-dist/",
+      "bootstrapFormHelpersCSS": "./node_modules/bootstrap-formhelpers/dist/css/",
+      "bootstrapSelect": "./node_modules/bootstrap-select/dist/",
+      "bootstrapTokenfield": "./node_modules/bootstrap-tokenfield/dist/",
+      "countryData": "./node_modules/country-data/data/",
+      "datatables": "./node_modules/datatables.net-bs/js/",
+      "datatablesColReorderJS": "./node_modules/datatables.net-colreorder-bs/js/",
+      "datatablesColReorderCSS": "./node_modules/datatables.net-colreorder-bs/css/",
+      "datatablesBootstrapJS": "./node_modules/datatables.net-bs/js",
+      "datatablesBootstrapCSS": "./node_modules/datatables.net-bs/css",
+      "datatablesFixedHeaderJS": "./node_modules/datatables.net-fixedheader-bs/js/",
+      "datatablesFixedHeaderCSS": "./node_modules/datatables.net-fixedheader-bs/css/",
+      "datatablesResponsiveBootstrapJS": "./node_modules/datatables.net-responsive-bs/js/",
+      "datatablesResponsiveBootstrapCSS": "./node_modules/datatables.net-responsive-bs/css/",
+      "dragula": "./node_modules/dragula/dist/",
+      "d3": "./node_modules/d3/build/",
+      "fakerJS": "./node_modules/faker/build/",
+      "momentJS": "./node_modules/moment/min/",
+      "mustacheJS": "./node_modules/mustache/",
+      "tokenfield": "./node_modules/tokenfield/dist/"
+    },
+    "help": {
+      "root": "./docs/"
+    },
+    "public": {
+      "root": "./public/",
+      "patterns": "./public/patterns/",
+      "data": "./public/styleguide/data/",
+      "docs": "./public/docs/",
+      "annotations": "./public/annotations/",
+      "styleguide": "./public/styleguide/",
+      "styleguideCSS": "./public/styleguide/css/",
+      "styleguideJS": "./public/styleguide/js/",
+      "vendorJS": "./public/js/vendor",
+      "js": "./public/js",
+      "images": "./public/images",
+      "fonts": "./public/fonts",
+      "css": "./public/css",
+      "vendorCSS": "./public/css/vendor",
+      "theme": "./public/css/theme",
+      "fontAwesome5Pro": "./public/fonts/@fortawesome/fontawesome-pro/"
+    }
+  },
+  "styleGuideExcludes": [],
+  "defaultPattern": "home",
+  "cleanPublic": true,
+  "patternExtension": "html",
+  "ignored-extensions": [
+    "scss",
+    "DS_Store",
+    "less"
+  ],
+  "ignored-directories": [
+    "scss"
+  ],
+  "debug": false,
+  "ishControlsHide": {
+    "s": false,
+    "m": false,
+    "l": false,
+    "full": false,
+    "random": false,
+    "disco": false,
+    "hay": false,
+    "mqs": false,
+    "find": false,
+    "views-all": false,
+    "views-annotations": false,
+    "views-code": false,
+    "views-new": false,
+    "tools-all": false,
+    "tools-docs": false
+  },
+  "ishMinimum": "240",
+  "ishMaximum": "2600",
+  "patternStateCascade": [
+    "inprogress",
+    "inreview",
+    "experimental",
+    "complete"
+  ],
+  "patternStates": {
+    "molecules-single-comment": "complete",
+    "organisms-sticky-comment": "complete",
+    "templates-article": "complete"
+  },
+  "patternExportPatternPartials": [],
+  "patternExportDirectory": "./pattern_exports/",
+  "baseurl": "",
+  "cacheBust": true,
+  "starterkitSubDir": "dist",
+  "outputFileSuffixes": {
+    "rendered": "",
+    "rawTemplate": "",
+    "markupOnly": ".markup-only"
+  },
+  "plugins": {
+    "plugin-node-uiextension": {
+      "enabled": true,
+      "initialized": false,
+      "options": {
+        "stylesheets": [
+          "../../../css/pattern-scaffolding.css"
+        ],
+        "navLinks": {
+          "before": [],
+          "after": []
+        },
+        "gearLinks": {
+          "before": [],
+          "beforeSearch": []
+        }
+      }
+    },
+    "plugin-node-tab": {
+      "enabled": true,
+      "initialized": true,
+      "options": {
+        "tabsToAdd": [
+          "css",
+          "js"
+        ]
+      }
+    }
+  },
+  "theme": {
+    "color": "light",
+    "density": "comfortable",
+    "layout": "vertical"
+  }
+}
