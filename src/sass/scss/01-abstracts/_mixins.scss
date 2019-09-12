@@ -28,7 +28,7 @@
  */
 @mixin linkStyle() {
   background-color: $pl-color-black;
-  color: $pl-color-gray-50;
+  color: $pl-color-gray-07;
   text-decoration: none;
   line-height: 1;
   padding: 0.7rem 0.5rem;
@@ -58,7 +58,7 @@
      */
   .pl-c-body--theme-light & {
     background-color: $pl-color-white;
-    color: $pl-color-gray-70;
+    color: $pl-color-gray-07;
 
     &:hover {
       background-color: $pl-color-gray-07;
