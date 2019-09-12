@@ -18,6 +18,7 @@
   flex-direction: column;
   transition: max-height $pl-animate-quick ease-out;
   flex: 1 auto;
+  justify-self: flex-start;
 
   /**
    * Pattern Search Typeahead
