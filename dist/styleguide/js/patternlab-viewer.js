@@ -2389,7 +2389,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* WEBPACK VAR INJECTION */(f
   \******************************************/
 /*! exports provided: store */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/symbol-observable/es/index.js (<- Module uses injected variables (global, module)) */
-/*! ModuleConcatenation bailout: Cannot concat with ./src/scripts/actions/app.js because of ./src/scripts/components/pl-toggle-theme/pl-toggle-theme.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./src/scripts/actions/app.js because of ./src/scripts/components/pl-toggle-layout/pl-toggle-layout.js */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

@@ -27,7 +27,8 @@
   height: auto;
 
   @media all and (max-width: $pl-bp-med) {
-    max-width: 75px;
+    max-width: 85px;
+    margin-top: 0.5rem;
   }
 }
 
@@ -35,4 +36,8 @@
 .pl-c-logo__text {
   color: $pl-color-enverus-light-green;
   white-space: nowrap;
+
+   @media all and (max-width: $pl-bp-med) {
+     display:none;
+   }
 }
