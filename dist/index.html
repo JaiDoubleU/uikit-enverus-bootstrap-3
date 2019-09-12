@@ -23,26 +23,30 @@
             <span class="pl-c-logo__text">Pattern Lab</span>
         </a>
     </pl-logo>
+    <pl-nav>
+        <nav class="pl-c-nav pl-js-nav-target pl-js-nav-container" role="navigation">
 
-    <nav class="pl-c-nav pl-js-nav-target pl-js-nav-container" role="navigation">
+            <!--
+                @todo: as a next step, implement <pl-search> as a customizable slot in the new <pl-header> for customization via available props
 
-        <!--
-            @todo: as a next step, implement <pl-search> as a customizable slot in the new <pl-header> for customization via available props
+                Example of always hiding the search's clear button
+                <pl-search max-results="10" placeholder="Find a Pattern" hide-clear-button></pl-search>
+            -->
+            <pl-search max-results="10" placeholder="Find a Pattern"></pl-search>
 
-            Example of always hiding the search's clear button
-            <pl-search max-results="10" placeholder="Find a Pattern" hide-clear-button></pl-search>
-        -->
-        <pl-search max-results="10" placeholder="Find a Pattern"></pl-search>
+            <ol class="pl-c-nav__list pl-js-pattern-nav-target">
+                <!-- pattern lab nav will be inserted here -->
+            </ol><!--end pl-c-nav__list-->
 
-        <ol class="pl-c-nav__list pl-js-pattern-nav-target">
-            <!-- pattern lab nav will be inserted here -->
-        </ol><!--end pl-c-nav__list-->
+        </nav><!--end pl-c-nav-->
+    </pl-nav>
 
-    </nav><!--end pl-c-nav-->
+    <pl-controls>
 
-    <div class="pl-c-controls pl-js-controls">
-        <!-- ish and tools controls will be inserted here -->
-    </div><!--end pl-c-controls-->
+        <div class="pl-c-controls pl-js-controls">
+            <!-- ish and tools controls will be inserted here -->
+        </div><!--end pl-c-controls-->
+    </pl-controls>
 
 </header><!--end pl-c-header-->
 
