@@ -1,0 +1,78 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+/**
+* These variables are specific to the Pattern Lab shell and exist
+* indepenedently of any project-specific styles
+*/
+
+// Colors
+$pl-color-white: #fff;
+$pl-color-gray-02: #fafafa;
+$pl-color-gray-07: #eee;
+$pl-color-gray-13: #ddd;
+$pl-color-gray-20: #ccc;
+$pl-color-gray-50: #808080;
+$pl-color-gray-70: #4d4c4c;
+$pl-color-gray-87: #222;
+$pl-color-black: #000;
+
+$pl-color-trans-white-25: rgba(255, 255, 255, 0.25);
+
+$pl-color-enverus-gray6: #121314;
+$pl-color-enverus-gray5: #202020;
+$pl-color-enverus-gray4: #292929;
+$pl-color-enverus-gray3: #454545;
+$pl-color-enverus-gray2: #878787;
+$pl-color-enverus-gray1: #f3f3f3;
+
+$pl-color-enverus-primary-green: #56bc2f;
+$pl-color-enverus-dark-green: #13322b;
+$pl-color-enverus-light-green: #a0ef6e;
+$pl-color-enverus-deep-lake: #03252f;
+$pl-color-enverus-lake: #2e5665;
+$pl-color-enverus-lagoon: #006a70;
+$pl-color-enverus-ocean: #58a7af;
+$pl-color-enverus-mist: #d0ecee;
+$pl-color-enverus-sand: #efeee1;
+$pl-color-enverus-just-blue: #119dd9;
+$pl-color-enverus-electric-blue: #005af6;
+$pl-color-enverus-vivid-orange: #ff5f23;
+
+
+$pl-color-state-info: #02A4D5;
+$pl-color-state-complete: #03790F;
+$pl-color-state-inreview: #C7A118;
+$pl-color-state-deprecated: #B00B02;
+
+// Font Family
+$pl-font: "HelveticaNeue","Helvetica","Arial",sans-serif;
+
+// Font sizes
+$pl-font-size-sm: 0.7rem;
+$pl-font-size-sm-2: 0.85rem;
+$pl-font-size-norm: 1rem;
+$pl-font-size-large: 1.2rem;
+
+// Spacing & Padding
+$pl-space: 1rem;
+$pl-doublespace: $pl-space*2;
+$pl-pad: 1rem;
+$pl-pad-half: $pl-pad/2;
+$offset-top: 2rem;
+
+// Breakpoints
+$pl-bp-med: 42em;
+$pl-bp-large: 53em;
+$pl-bp-xl: 62em;
+
+// Animations
+$pl-animate-quick: 0.1s;
+$pl-animate-normal: 0.3s;
+
+// Borders
+$pl-border-radius: 3px;
+$pl-border-radius-med: 6px;
+
+$pl-sidebar-width: 16rem; //Define sidebar width for calculating dimensions

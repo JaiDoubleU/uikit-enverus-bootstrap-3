@@ -1,0 +1,38 @@
+/*------------------------------------*\
+    #LOGO
+\*------------------------------------*/
+
+/**
+ * 1) An optional logo that lives in PL's header.
+ * 2) Displayed as a link
+ */
+.pl-c-logo {
+  max-width: 2rem;
+  margin: 3px 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  &:focus {
+    outline: 1px dotted $pl-color-gray-50;
+    outline-offset: -1px;
+  }
+}
+
+.pl-c-logo__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  @media all and (max-width: $pl-bp-med) {
+    max-width: 75px;
+  }
+}
+
+
+.pl-c-logo__text {
+  color: $pl-color-enverus-light-green;
+  white-space: nowrap;
+}
