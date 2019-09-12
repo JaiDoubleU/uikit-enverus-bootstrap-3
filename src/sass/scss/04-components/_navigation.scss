@@ -15,9 +15,9 @@
   top: 100%;
   width: 100%;
   display: flex;
-  flex: 1 auto;
   flex-direction: column;
   transition: max-height $pl-animate-quick ease-out;
+  flex: 1 auto;
 
   /**
    * Pattern Search Typeahead
