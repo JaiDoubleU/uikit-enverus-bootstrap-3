@@ -4,20 +4,19 @@
 
 # UIKit Bare
 
-~~Front-end assets and templates for the default Pattern Lab [workshop](http://bradfrost.com/blog/post/the-workshop-and-the-storefront/) view.~~
+~~Front-end assets and templates for the Enverus Pattern Lab [workshop](http://bradfrost.com/blog/post/the-workshop-and-the-storefront/) view.~~
 
-~~This code is responsible for creating Pattern Lab's default workshop UI look, feel, and functionality.~~
+~~This code is responsible for creating Enverus Pattern Lab's default workshop UI look, feel, and functionality.~~
 
-An even simpler starting point for UIKit development. It only has the final output UIKit of uikit-workshop, minus the complicated build pipeline that utilized. 
+An even simpler starting point for UIKit development. It only has the final output UIKit of uikit-workshop, minus the complicated build pipeline that utilized.
 
 
 ## Installation
 
 ### Node
 
-Pattern Lab Node uses [npm](https://www.npmjs.com/) to manage project dependencies. To install the default static assets run:
-
-    npm install @pattern-lab/uikit-bare
+UIKit Enverus use [npm](https://www.npmjs.com/) to manage project dependencies. To install the default static assets run:
+    npm install --save https://github.com/JaiDoubleU/uikit-enverus.git
 
 ## Development Requirements
 
