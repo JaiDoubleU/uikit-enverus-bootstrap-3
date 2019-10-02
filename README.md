@@ -15,8 +15,9 @@ An even simpler starting point for UIKit development. It only has the final outp
 
 ### Node
 
-UIKit Enverus use [npm](https://www.npmjs.com/) to manage project dependencies. To install the default static assets run:
-    npm install --save https://github.com/JaiDoubleU/uikit-enverus.git
+UIKit Enverus use [npm](https://www.npmjs.com/) to manage project dependencies. To install the default static assets run the following:
+
+* npm install --save https://github.com/JaiDoubleU/uikit-enverus.git
 
 ## Development Requirements
 
