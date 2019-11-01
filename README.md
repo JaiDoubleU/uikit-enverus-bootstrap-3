@@ -2,7 +2,7 @@
 ![current release](https://img.shields.io/npm/v/@pattern-lab/uikit-bare.svg)
 [![Gitter](https://img.shields.io/gitter/room/pattern-lab/node.svg)](https://gitter.im/pattern-lab/node)
 
-# UIKit Bare
+# Enverus UIKit - custom fork of @pattern-lab UIKit Bare
 
 ~~Front-end assets and templates for the Enverus Pattern Lab [workshop](http://bradfrost.com/blog/post/the-workshop-and-the-storefront/) view.~~
 
@@ -26,5 +26,10 @@ In order to modify these assets you need to install the following:
 * [Node.js](http://nodejs.org) and NPM
 
 ## Development Set-up
+
+### Build/Compile 
+
+Usage: npm run build [options]
+
 
 Read the [contribution guidelines](https://github.com/pattern-lab/patternlab-node/blob/master/packages/uikit-workshop/.github/CONTRIBUTING.md)
