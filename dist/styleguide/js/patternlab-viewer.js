@@ -2189,7 +2189,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
   \**************************************************************/
 /*! exports provided: BaseComponent */
 /*! ModuleConcatenation bailout: Cannot concat with ./node_modules/preact/dist/preact.umd.js (<- Module is not an ECMAScript module) */
-/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/skatejs/dist/es/index.js because of ./src/scripts/components/pl-layout/pl-layout.js */
+/*! ModuleConcatenation bailout: Cannot concat with ./node_modules/skatejs/dist/es/index.js because of ./src/scripts/components/pl-search/pl-search.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/scripts/store.js because of ./src/scripts/components/pl-layout/pl-layout.js */
 /*! ModuleConcatenation bailout: Cannot concat with ./src/scripts/utils/index.js */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
